@@ -6,9 +6,9 @@ public class Program1_CountFlips {
     int heads = 0;
     int tails = 0;
     int max = 100;
-    int flipAttempt = 0;
+    int flipAttempt;
 
-    for(flipAttempt; flipAttempt < 100; flipAttempt++){
+    for(flipAttempt = 0; flipAttempt < 100; flipAttempt++){
       if (random.nextInt(2) == 0){
         heads++;
       } else{
