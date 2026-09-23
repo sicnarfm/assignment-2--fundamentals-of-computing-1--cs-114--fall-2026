@@ -9,13 +9,13 @@ public class Program1_CountFlips {
 
     for(flipAttempt = 0; flipAttempt < 100; flipAttempt++){
       if (random.nextInt(2) == 0){
-        heads++;
+        headsCount++;
       } else{
-        tails++;
+        tailsCount++;
       }
     }
 
-    System.out.println("Heads: " + heads);
-    System.out.println("Tails: " + tails);
+    System.out.println("Heads: " + headsCount);
+    System.out.println("Tails: " + tailsCount);
   }
 }
