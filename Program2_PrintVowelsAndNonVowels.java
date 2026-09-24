@@ -1,4 +1,4 @@
-import java.util.Scanner();
+import java.util.Scanner;
 
 public class Program2_PrintVowelsAndNonVowels {
   public static void main(String[] args) {
@@ -6,11 +6,25 @@ public class Program2_PrintVowelsAndNonVowels {
 
     int amountOfVowels = 0;
     int amountOfNonVowels = 0;
-    int inputLocation;
+    int characterLocation;
     String userInput;
+    String vowels = "aeiouAEIOU";
 
     System.out.println("Please give Input...");
     userInput = input.nextLine();
 
+    for(characterLocation = 0; characterLocation <= userInput.length()-1; characterLocation++){
+      char character = userInput.charAt(characterLocation);
+      if(vowels.indexOf(character) >= 0){
+        amountOfVowels++;
+      }
+      else {
+        amountOfNonVowels++;
+      }
+    }
+
+
+
+    input.close();
   }
 }
