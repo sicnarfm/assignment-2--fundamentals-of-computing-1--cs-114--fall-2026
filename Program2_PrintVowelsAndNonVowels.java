@@ -6,9 +6,11 @@ public class Program2_PrintVowelsAndNonVowels {
 
     int amountOfVowels = 0;
     int amountOfNonVowels = 0;
+    int InputLocation;
     String userInput;
 
     System.out.println("Please give Input...");
     userInput = input.nextLine();
+    if (subString.userInput == "a")
   }
 }
