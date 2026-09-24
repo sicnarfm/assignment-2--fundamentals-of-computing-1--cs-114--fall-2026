@@ -2,7 +2,7 @@ public class Program3_TheTwelveDaysOfChristmas {
   public static void main(String[] args) {
     int days;
 
- for(days = 0; days < 13; days++){
+    for(days = 0; days < 13; days++){
       switch(days){
         case 1:
           System.out.println("On the first day of Christmas, my true love sent to me\nA partridge in a pear tree");
