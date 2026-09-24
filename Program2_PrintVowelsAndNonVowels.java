@@ -8,6 +8,7 @@ public class Program2_PrintVowelsAndNonVowels {
     int amountOfNonVowels = 0;
     String userInput;
 
-
+    System.out.println("Please give Input...");
+    userInput = input.nextLine();
   }
 }
