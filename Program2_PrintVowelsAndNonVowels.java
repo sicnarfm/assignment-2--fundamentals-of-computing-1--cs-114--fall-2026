@@ -6,5 +6,8 @@ public class Program2_PrintVowelsAndNonVowels {
 
     int amountOfVowels = 0;
     int amountOfNonVowels = 0;
+    String userInput;
+
+
   }
 }
