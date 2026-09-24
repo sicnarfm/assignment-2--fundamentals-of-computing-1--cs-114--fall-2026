@@ -2,6 +2,8 @@ import java.util.Scanner();
 
 public class Program2_PrintVowelsAndNonVowels {
   public static void main(String[] args) {
+    Scanner input = new Scanner(System.in);
+
     int amountOfVowels = 0;
     int amountOfNonVowels = 0;
   }
