@@ -14,16 +14,21 @@ public class Program2_PrintVowelsAndNonVowels {
     userInput = input.nextLine();
 
     for(characterLocation = 0; characterLocation <= userInput.length()-1; characterLocation++){
+
       char character = userInput.charAt(characterLocation);
+
       if(vowels.indexOf(character) >= 0){
+
         amountOfVowels++;
+
       }
+
       else {
+
         amountOfNonVowels++;
+
       }
     }
-
-
 
     input.close();
   }
