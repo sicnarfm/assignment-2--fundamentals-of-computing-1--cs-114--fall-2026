@@ -30,6 +30,9 @@ public class Program2_PrintVowelsAndNonVowels {
       }
     }
 
+    System.out.println("Amount of Vowels " + amountOfVowels);
+    System.out.println("Amount of Non-Vowels " + amountOfNonVowels);
+
     input.close();
   }
 }
