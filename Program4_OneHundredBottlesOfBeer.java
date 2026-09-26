@@ -10,7 +10,10 @@ public class Program4_OneHundredBottlesOfBeer {
     System.out.println("Please give a number from 0-100");
     amountOfBeersOnTheWall = input.nextInt();
 
-
+    if(amountOfBeersOnTheWall > 100 || amountOfBeersOnTheWall < 0){
+      System.out.println("You've inputted above or below the limits.");
+      break;
+    }
 
     for(amountOfLoops = amountOfBeersOnTheWall; amountOfLoops >= 0; amountOfBeersOnTheWall--){
       if(amountOfBeersOnTheWall == 1){
@@ -19,10 +22,6 @@ public class Program4_OneHundredBottlesOfBeer {
       }
       else if(amountOfBeersOnTheWall == 0){
         System.out.println("No more bottles of beer on the wall\nno more bottles of beer\nGo to the store and buy some more\n100 bottles of beer on the wall");
-        break;
-      }
-      else if(amountOfBeersOnTheWall > 100 || amountOfBeersOnTheWall < 0){
-        System.out.println("You've inputted above or below the limits.");
         break;
       }
       else{
