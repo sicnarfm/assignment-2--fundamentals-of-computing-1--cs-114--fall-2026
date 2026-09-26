@@ -15,7 +15,7 @@ public class Program4_OneHundredBottlesOfBeer {
         System.out.println("1 bottle of beer on the wall\n1 bottle of beer\nTake one down and pass it around\nno more bottles of beer on the wall");
       }
       else if(amountOfBeersOnTheWall == 0){
-        System.out.println("No more bottles of beer on the wall\nno more bottles of beer\nGo to the store and buy some more\n99 bottles of beer on the wall");
+        System.out.println("No more bottles of beer on the wall\nno more bottles of beer\nGo to the store and buy some more\n100 bottles of beer on the wall");
         break;
       }
       else{
