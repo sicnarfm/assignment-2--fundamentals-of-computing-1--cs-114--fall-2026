@@ -11,9 +11,8 @@ public class Program4_OneHundredBottlesOfBeer {
     amountOfBeersOnTheWall = input.nextInt();
 
     if(amountOfBeersOnTheWall > 100 || amountOfBeersOnTheWall < 0){
-      System.out.println("You've inputted above or below the limits.");
-      break;
-    }
+        System.out.println("You've inputted above or below the limits.");
+      }
 
     for(amountOfLoops = amountOfBeersOnTheWall; amountOfLoops >= 0; amountOfBeersOnTheWall--){
       if(amountOfBeersOnTheWall == 1){
